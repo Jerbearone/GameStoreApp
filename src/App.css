@@ -1,0 +1,154 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  color: #2B2D42;
+  
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 1em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.app_title{
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  justify-content: center;
+  margin-top: 0;
+  height: fit-content;
+  z-index: 0;
+  
+
+  background-color: transparent;
+  border-radius: 1rem;
+  width: 90vw;
+}
+.home_button{
+  display: flex;
+  width: fit-content;
+  background-color: #EF233C;
+  margin-left: 2rem;
+  z-index: 1;
+  margin-bottom: 1rem;
+  
+}
+
+.title_style{
+  background-color: #EF233C;
+
+  margin-top: 0;
+  border-radius: 1rem;
+}
+
+.add_new_video_game_button{
+
+  background-color: #EF233C;
+  margin-bottom: 2rem;
+}
+
+.game_card{
+  background-color: #8d99ae;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+  padding: 1rem;
+  border-radius: .25rem;
+  width: 50vw;
+}
+
+.game_card_attributes{
+  background-color: #EF233C;
+  border-radius: .5rem;
+  margin-top: 1rem;
+  padding: 1rem
+}
+
+.game_stock_view{
+  background-color: #EDF2F4;
+  border-radius: .25rem;
+}
+
+.button_container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.game_button{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.update_form{
+  display: flex;
+  justify-content: center;
+}
+
+.new_game_input_form_vid{
+  background-color: #8d99ae;
+  width: 50%;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+
+input[type=text] {
+  height: 1.5rem;
+  border-radius: .25rem;
+  margin-top: 1rem;
+
+  width: 100%;
+}
+
+input[type=checkbox] {
+  margin-top: 2rem;
+}
+
+.new_game_submit_button{
+  margin-top: 2.5rem;
+}
+
+.update_form_data{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+
+}
